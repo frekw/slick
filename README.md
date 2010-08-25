@@ -3,14 +3,21 @@ Slick is a new theme for SproutCore.
 
 Prerequisites
 =============
-To use the theme, you'll need a custom version & branch of SproutCore that has an updated rendering infrastructure
-from here:
+To use the theme, you'll need to use the Quilmes branch of SproutCore that has an updated rendering infrastructure.
+You can obtain the Quilmes branch the following way:
 
-    http://github.com/ialexi/sproutcore/tree/renderers
+    $ git clone git://github.com/sproutit/sproutcore-abbot.git abbot
+    $ cd abbot
+    $ rake init
+    $ mkdir frameworks
+    $ cd frameworks
+    $ git clone git://github.com/sproutit/sproutcore.git sproutcore
+    $ cd sproutcore
+    $ git checkout quilmes
+    $ git pull
     
-Or, to clone:
     
-    git://github.com/ialexi/sproutcore.git renderers
+More info: http://wiki.sproutcore.com/Abbot-Setting+Up
     
 
 Building
