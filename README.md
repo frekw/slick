@@ -16,7 +16,12 @@ You can obtain the Quilmes branch the following way:
     $ git checkout quilmes
     $ git pull
     
-    
+You can now run commands the following way (from your app):
+    $ ../abbot/bin/sc-server
+
+*NOTICE*: If your app has a copy of sproutcore in its frameworks directory, that version needs to
+updated with one that supports renderers (e.g Quilmes).
+
 More info: http://wiki.sproutcore.com/Abbot-Setting+Up
     
 
