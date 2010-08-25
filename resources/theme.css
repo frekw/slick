@@ -1,37 +1,28 @@
-
-
-.sc-theme .sc-view.sc-regular-size.sc-button-view {
-color: #fff;
-text-shadow: 0px -1px 0px rgba(0, 0, 0, .35);
-
-/* NORMAL STATE */
-.button-left {
-margin-top:-12px;
-height: 25px;
-width: 3px;
-background: static_url("images/1.png") no-repeat 0 -25px !important;
+.sc-theme .sc-view.slick.sc-regular-size.sc-button-view {
+  color: #ffffff;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.35);
 }
-
-.button-right {
-margin-top:-12px;
-height: 25px;
-width: 3px;
-background: static_url("images/1.png") no-repeat 0 -50px;
+.sc-theme .sc-view.slick.sc-regular-size.sc-button-view .button-left {
+  margin-top: -12px;
+  height: 25px;
+  width: 3px;
+  background: static_url("images/1.png") no-repeat 0 -25px;
 }
-
-.button-middle {
-margin-top:-12px;
-height: 25px;
-background: static_url("images/1.png") repeat-x 0 0;
-
+.sc-theme .sc-view.slick.sc-regular-size.sc-button-view .button-right {
+  margin-top: -12px;
+  height: 25px;
+  width: 3px;
+  background: static_url("images/1.png") no-repeat 0 -50px;
 }
-
-.sc-button-label {
-margin-top:-12px;
-height: 24px;
-padding-top:2px;
+.sc-theme .sc-view.slick.sc-regular-size.sc-button-view .button-middle {
+  margin-top: -12px;
+  height: 25px;
+  left: 3px;
+  right: 3px;
+  background: static_url("images/1.png") repeat-x 0 0;
 }
+.sc-theme .sc-view.slick.sc-regular-size.sc-button-view .sc-button-label {
+  margin-top: -12px;
+  height: 24px;
+  padding-top: 2px;
 }
-
-
-

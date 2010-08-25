@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-system('chance/chance.rb --less slick.normal')
+system('chance/chance.rb --less slick')
