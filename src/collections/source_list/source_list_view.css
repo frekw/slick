@@ -1,0 +1,45 @@
+.sc-source-list-background,
+@view(sc-scroll-view).sc-source-list-background .sc-container-view {
+  background: #d1dfe5;
+}
+
+@view(sc-collection-view).sc-source-list {
+  background: #d1dfe5;
+}
+
+
+@view(sc-collection-view).sc-source-list .sc-list-item-view label {
+  top: 50%;
+  margin-top: -9px;
+  font-size:12px;
+  color: #516b70;
+  text-shadow: 0px 1px 1px white;
+}
+
+@view(sc-collection-view).sc-source-list .sc-collection-item.sel label {
+  color: white;
+  text-shadow: 0px 1px 1px rgba(0,0,0,.65);
+}
+@view(sc-collection-view).sc-source-list .sc-collection-item.sel {
+  background: sprite("selection.png" repeat-x [0, 0, 1, 32]);
+  border-top: 1px solid #016391;
+  border-bottom: 1px solid #016391;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px rgba(0,0,0,.65);
+}
+
+@view(sc-collection-view).sc-source-list .sc-collection-item.sc-group-item {
+  font-weight: bold;
+  color: #516b70;
+  text-shadow: 0px 1px 1px white;
+  font-size:11px;
+  text-transform:uppercase;
+}
+
+@view(sc-collection-view).sc-source-list .disclosure {
+  position: absolute;
+  left: -12px;
+  top: 9px;
+  font-size: 11px;
+}
