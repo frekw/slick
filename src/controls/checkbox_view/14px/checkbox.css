@@ -1,0 +1,35 @@
+@theme(sc-small-size)
+
+@view(sc-checkbox) span.button {
+  background: sprite("checkbox.png");
+  width: 14px;
+  height:15px;
+}
+
+@view(sc-checkbox).sel span.button {
+  background: sprite("checkbox_checked.png");
+}
+
+@view(sc-checkbox).mixed span.button {
+  background: sprite("checkbox_mixed.png");
+}
+
+@view(sc-checkbox).active span.button {
+  background: sprite("checkbox_active.png");
+}
+
+@view(sc-checkbox).sel.active span.button {
+  background: sprite("checkbox_checked_active.png");
+}
+
+@view(sc-checkbox).sel.active label {
+  color:#000;
+  text-shadow: 0px 1px 0px rgba(0,0,0,.75);
+}
+
+@view(sc-checkbox).mixed.active span.button {
+  background: sprite("checkbox_mixed_active.png");
+}
+
+
+@end

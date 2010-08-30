@@ -1,0 +1,70 @@
+/* 
+Syntax Notes: 
+@view(view-name) is replaced with .sc-view.view-name.theme-name
+
+theme-name is specified as an argument when building.
+
+[3] means a rectangle starting at x=3, the whole height, to the right edge.
+[3, 1] means rectangle starting at x=3, width 1px, whole height
+[3, 2, 1, 1] means a 1x1 rectangle at 3, 2.
+*/
+
+/* Track */
+@view(sc-progress-view) {
+  /* anchor right so noise won't show below rounded corners of right piece */
+  background: sprite("progress_track.png" clear [0, 3]);
+  z-index:0;
+  border:0px none;
+}
+
+@view(sc-progress-view) .sc-outer-head {
+  left: 3px;
+  right: 3px;
+  position:absolute;
+  height:20px;
+  background: sprite("progress_track.png" repeat-x [3, 1]);
+  z-index:0;
+  border:0px none;
+}
+
+@view(sc-progress-view) .sc-outer-tail {
+  right: 0px;
+  width: 3px;
+  position:absolute;
+  height:20px;
+  background: sprite("progress_track.png" [-3]);
+  z-index:0;
+  border:0px none;
+}
+
+
+
+/* Inner */
+@view(sc-progress-view) .sc-inner {
+  background: sprite("progress.png" clear [0, 3]);
+  z-index:1;
+  border:0px none;
+}
+
+@view(sc-progress-view) .sc-inner-head {
+  width: 3px;
+  right: 0px;
+  position:absolute;
+  height:20px;
+  background: sprite("progress.png" anchor-right [-3]);
+  border:0px none;
+}
+
+@view(sc-progress-view) .sc-inner-tail {
+  left: 3px;
+  right: 3px;
+  position:absolute;
+  height:20px;
+  background: sprite("progress.png" repeat-x [3, 1]);
+  border:0px none;
+}
+
+/* Disabled */
+@view(sc-progress-view).disabled {
+  opacity:.5;
+}
