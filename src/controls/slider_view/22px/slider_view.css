@@ -4,7 +4,7 @@
   
   .sc-track .sc-left {
     width:2px;
-    height: 8px;
+    height: 7px;
     background: sprite("track.png" [0 2]);
   }
   .sc-track .sc-middle {

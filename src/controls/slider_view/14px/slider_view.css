@@ -4,23 +4,23 @@
   
   .sc-track .sc-left {
     width:2px;
-    height: 6px;
+    height: 4px;
     background: sprite("track.png" [0 2]);
   }
   .sc-track .sc-middle {
     left:2px;
     right:2px;
-    height: 6px;
+    height: 4px;
     background: sprite("track.png" repeat-x [2, 1]);
   }
   .sc-track .sc-right {
     width:2px;
-    height: 6px;
+    height: 4px;
     background: sprite("track.png" [-2]);
   }
   
   .sc-handle {
-    width: 13px; height: 15px; top: 50%; margin-top: -6px;
+    width: 13px; height: 15px; top: 50%; margin-top: -7px;
     background: sprite("knob.png");
   }
   
