@@ -1,1 +1,1 @@
-config :all, :required => "sproutcore/ace"
+# config :all, :required => :sproutcore, :index_at => ''

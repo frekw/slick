@@ -22,11 +22,6 @@
   background: sprite("checkbox_checked_active.png");
 }
 
-@view(sc-checkbox).sel.active label {
-  color:#000;
-  text-shadow: 0px 1px 0px rgba(0,0,0,.75);
-}
-
 @view(sc-checkbox).mixed.active span.button {
   background: sprite("checkbox_mixed_active.png");
 }

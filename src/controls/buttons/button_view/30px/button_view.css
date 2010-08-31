@@ -1,0 +1,53 @@
+@theme(sc-huge-size)
+
+@view(sc-button-view) {
+  
+  /* NORMAL STATE */
+  .button-left {
+    margin-top:-15px;
+    height: 30px;
+    background: sprite("normal_button.png" [0 3]);
+  }
+  
+  .button-right {
+    margin-top:-15px;
+    height: 30px;
+    background: sprite("normal_button.png" [-3]);
+  }
+  
+  .button-middle {
+    margin-top:-15px;
+    height: 30px;
+    background: sprite("normal_button.png" repeat-x [3, 1]);
+  }
+  
+  .sc-button-label {
+    margin-top:-11px;
+    height: 30px;
+    font-size:13px;
+  }
+}
+
+@view(sc-button-view).active {
+  .button-left { background: sprite("active_button.png" [0 3]); }
+  .button-right { background: sprite("active_button.png" [-3]); }
+  .button-middle { background: sprite("active_button.png" [3 1] repeat-x); }
+  .sc-button-label { margin-top:-10px; }
+}
+
+@view(sc-button-view).sel, @view(sc-button-view).def {
+  .button-left { background: sprite("selected_button.png" [0 3]); }
+  .button-right { background: sprite("selected_button.png" [-3]); }
+  .button-middle { background: sprite("selected_button.png" [3 1] repeat-x); }
+}
+
+@view(sc-button-view).sel.active, @view(sc-button-view).def.active {
+  .button-left { background: sprite("selected_active_button.png" [0 3]); }
+  .button-right { background: sprite("selected_active_button.png" [-3]); }
+  .button-middle { background: sprite("selected_active_button.png" [3 1] repeat-x); }
+}
+
+
+@end
+
+
