@@ -605,6 +605,10 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
   height: 18px;
   background: static_url("images/1.png") repeat-x 0 -993px;
 }
+.sc-theme .sc-view.slick.sc-small-size.sc-segmented-view .sc-segment .sc-button-label {
+  font-size: 11px;
+  margin-top: -2px;
+}
 .sc-theme .sc-view.slick.sc-small-size.sc-segmented-view .sc-segment.sc-first-segment .button-left { background: static_url("images/1.png") no-repeat -16px -2322px; }
 .sc-theme .sc-view.slick.sc-small-size.sc-segmented-view .sc-segment.sc-last-segment .button-right { background: static_url("images/1.png") no-repeat -8px -2322px; }
 .sc-theme .sc-view.slick.sc-small-size.sc-segmented-view .sc-segment.active .button-left { background: static_url("images/1.png") no-repeat 0 -2322px; }
@@ -669,6 +673,10 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
   height: 30px;
   background: static_url("images/1.png") repeat-x 0 -518px;
 }
+.sc-theme .sc-view.slick.sc-large-size.sc-segmented-view .sc-segment .sc-button-label {
+  font-size: 13px;
+  margin-top: 3px;
+}
 .sc-theme .sc-view.slick.sc-large-size.sc-segmented-view .sc-segment.sc-first-segment .button-left { background: static_url("images/1.png") no-repeat -16px -1978px; }
 .sc-theme .sc-view.slick.sc-large-size.sc-segmented-view .sc-segment.sc-last-segment .button-right { background: static_url("images/1.png") no-repeat 0 -1978px; }
 .sc-theme .sc-view.slick.sc-large-size.sc-segmented-view .sc-segment.active .button-left { background: static_url("images/1.png") no-repeat -16px -1934px; }
@@ -700,6 +708,11 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
 .sc-theme .sc-view.slick.sc-jumbo-size.sc-segmented-view .sc-segment .button-middle {
   height: 44px;
   background: static_url("images/1.png") repeat-x 0 -88px;
+}
+.sc-theme .sc-view.slick.sc-jumbo-size.sc-segmented-view .sc-segment .sc-button-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 11px;
 }
 .sc-theme .sc-view.slick.sc-jumbo-size.sc-segmented-view .sc-segment.sc-first-segment .button-left { background: static_url("images/1.png") no-repeat -21px -1301px; }
 .sc-theme .sc-view.slick.sc-jumbo-size.sc-segmented-view .sc-segment.sc-last-segment .button-right { background: static_url("images/1.png") no-repeat -16px -1846px; }
@@ -747,19 +760,19 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
 .sc-theme .sc-view.slick.sc-segmented-view .sc-segment .sc-button-label { display: block; }
 .sc-theme .sc-view.slick.sc-segmented-view .sc-segment.active {
   color: #333333;
-  text-shadow: 0px 1px 1px white;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
 .sc-theme .sc-view.slick.sc-segmented-view .sc-segment.sel {
   background: none;
   color: #ffffff;
   font-weight: 200;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 }
 .sc-theme .sc-view.slick.sc-segmented-view .sc-segment.sel.active {
   background: none;
   color: #ffffff;
   font-weight: 200;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 }
 .sc-theme .sc-view.slick.sc-segmented-view img {
   vertical-align: middle;

@@ -24,6 +24,12 @@
       height: 30px;
       background: sprite("segmented.png" repeat-x [8, 1]);
     }
+    
+    .sc-button-label {
+      font-size: 13px;
+      margin-top: 3px;
+    }
+    
   }
   
   .sc-segment.sc-first-segment .button-left {
