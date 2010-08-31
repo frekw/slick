@@ -1,5 +1,6 @@
 Slick is a new theme for SproutCore.
 
+Previews: http://imgur.com/JRDQw%26ijQIM%26SBBOp%26GiK7G%26sgY6i%26ZhtRk%26R01tu%26t2XGK&usg=AFQjCNGRqGfonYNvoX0BdnZBFHru-e1VLA
 
 Prerequisites
 =============
