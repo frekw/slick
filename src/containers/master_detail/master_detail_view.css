@@ -14,8 +14,7 @@
 }
 
 @view(sc-master-detail-view) > .sc-view {
-  background: -moz-linear-gradient(top,#ddd,#bbb);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#bbb));
+  background: #f1f1f1;
 }
 
 @view(sc-master-detail-view).round-toolbars > .sc-view {

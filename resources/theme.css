@@ -72,10 +72,7 @@
   -moz-border-raidus-topright: 10px;
 }
 .sc-theme .sc-view.slick.sc-master-detail-view > .sc-view { background: #f1f1f1; }
-.sc-theme .sc-view.slick.sc-master-detail-view > .sc-view {
-  background: -moz-linear-gradient(top, #dddddd, #bbbbbb);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dddddd), to(#bbbbbb));
-}
+.sc-theme .sc-view.slick.sc-master-detail-view > .sc-view { background: #f1f1f1; }
 .sc-theme .sc-view.slick.sc-master-detail-view.round-toolbars > .sc-view {
   -webkit-border-top-left-radius: 10px;
   -webkit-border-top-right-radius: 10px;
