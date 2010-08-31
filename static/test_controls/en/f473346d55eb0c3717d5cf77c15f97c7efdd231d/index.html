@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="apple-touch-icon" href="/static/sproutcore/foundation/en/dda7c76d3c3d013125718785fed7848a87ed6d84/images/sproutcore-logo.png" />
+	  <link rel="apple-touch-startup-image" media="screen and (orientation:portrait)" href="/static/sproutcore/foundation/en/dda7c76d3c3d013125718785fed7848a87ed6d84/images/sproutcore-startup-portrait.png" /> 
+	  <link rel="apple-touch-startup-image" media="screen and (orientation:landscape)" href="/static/sproutcore/foundation/en/dda7c76d3c3d013125718785fed7848a87ed6d84/images/sproutcore-startup-landscape.png" />
+	  <link rel="shortcut icon" href="" type="image/x-icon" />
+    
+    <title>Test Controls</title>
+  <script type="text/javascript">
+var SC=SC||{BUNDLE_INFO:{},LAZY_INSTANTIATION:{}};SC.browser=(function(){var c=navigator.userAgent.toLowerCase(),a=(c.match(/.+(?:rv|it|ra|ie)[\/: ]([\d.]+)/)||[])[1];
+var b={version:a,safari:(/webkit/).test(c)?a:0,opera:(/opera/).test(c)?a:0,msie:(/msie/).test(c)&&!(/opera/).test(c)?a:0,mozilla:(/mozilla/).test(c)&&!(/(compatible|webkit)/).test(c)?a:0,mobileSafari:(/apple.*mobile.*safari/).test(c)?a:0,chrome:(/chrome/).test(c)?a:0,windows:!!(/(windows)/).test(c),mac:!!((/(macintosh)/).test(c)||(/(mac os x)/).test(c)),language:(navigator.language||navigator.browserLanguage).split("-",1)[0]};
+b.current=b.msie?"msie":b.mozilla?"mozilla":b.safari?"safari":b.opera?"opera":"unknown";
+return b})();SC.bundleDidLoad=function(a){var b=this.BUNDLE_INFO[a];if(!b){b=this.BUNDLE_INFO[a]={}
+}b.loaded=true};SC.bundleIsLoaded=function(a){var b=this.BUNDLE_INFO[a];return b?!!b.loaded:false
+};SC.loadBundle=function(){throw"SC.loadBundle(): SproutCore is not loaded."};SC.setupBodyClassNames=function(){var e=document.body;
+if(!e){return}var c,a,f,b,g,d;c=SC.browser.current;a=SC.browser.windows?"windows":SC.browser.mac?"mac":"other-platform";
+d=document.documentElement.style;f=(d.MozBoxShadow!==undefined)||(d.webkitBoxShadow!==undefined)||(d.oBoxShadow!==undefined)||(d.boxShadow!==undefined);
+b=(d.MozBorderRadius!==undefined)||(d.webkitBorderRadius!==undefined)||(d.oBorderRadius!==undefined)||(d.borderRadius!==undefined);
+g=e.className?e.className.split(" "):[];if(f){g.push("box-shadow")}if(b){g.push("border-rad")
+}g.push(c);g.push(a);if(parseInt(SC.browser.msie,0)==7){g.push("ie7")}if(SC.browser.mobileSafari){g.push("mobile-safari")
+}if("createTouch" in document){g.push("touch")}e.className=g.join(" ")};if((typeof SC!=="undefined")&&SC&&SC.bundleDidLoad){SC.bundleDidLoad("sproutcore/bootstrap")
+};
+</script>
+
+     <link href="/static/sproutcore/forms/en/f7b40d3c73a0014e86545cd6ff81ac907f581442/stylesheet-packed.css" rel="stylesheet" type="text/css" />
+  <link href="/static/sproutcore/ace/en/71fef724301b04e00df8643ac18a190f56ab68a0/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="/static/slick/en/8de7c3fb4403a8cc005a90dc53140212018fe6e6/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="/static/test_controls/en/f473346d55eb0c3717d5cf77c15f97c7efdd231d/stylesheet.css" rel="stylesheet" type="text/css" />
+   
+    
+  </head>
+    
+  <body class="sc-theme focus">  
+<script type="text/javascript">
+if(SC.setupBodyClassNames){SC.setupBodyClassNames()};
+</script>
+
+
+<div id="loading">
+<p class="loading">Loading<p>
+
+
+</div>
+<script type="text/javascript">String.preferredLanguage = "en";</script>
+  <script type="text/javascript" src="/static/sproutcore/forms/en/f7b40d3c73a0014e86545cd6ff81ac907f581442/javascript-packed.js"></script>
+  <script type="text/javascript" src="/static/sproutcore/animation/en/fb7780ff208ad642555706628e12af7f26eb58e8/javascript.js"></script>
+  <script type="text/javascript" src="/static/sproutcore/datastore/en/d50782fec5ff0475d3e9417404fd3f05b7c04a3f/javascript.js"></script>
+  <script type="text/javascript" src="/static/sproutcore/empty_theme/en/d36a6ad415418956fdb095e5fd02d146628d906e/javascript.js"></script>
+  <script type="text/javascript" src="/static/sproutcore/ace/en/71fef724301b04e00df8643ac18a190f56ab68a0/javascript.js"></script>
+  <script type="text/javascript" src="/static/slick/en/8de7c3fb4403a8cc005a90dc53140212018fe6e6/javascript.js"></script>
+  <script type="text/javascript" src="/static/test_controls/en/f473346d55eb0c3717d5cf77c15f97c7efdd231d/javascript.js"></script>
+	</body>
+</html>
