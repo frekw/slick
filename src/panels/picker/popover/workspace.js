@@ -13,9 +13,9 @@
 // requires popover theme.
 require("src/panels/picker/popover/popover");
 
-var theme = SC.AceTheme.Popover;
+var theme = SC.SlickTheme.Popover;
 
-SC.AceTheme.Popover.renderers.Workspace = SC.EmptyTheme.renderers.Workspace.extend({
+SC.SlickTheme.Popover.renderers.Workspace = SC.EmptyTheme.renderers.Workspace.extend({
   computeClassNames: function() {
     var cn = this._TMP_CLASS_NAMES || {};
     cn["top-toolbar"] = this.hasTopToolbar;
@@ -48,4 +48,4 @@ SC.AceTheme.Popover.renderers.Workspace = SC.EmptyTheme.renderers.Workspace.exte
   }
 });
 
-SC.AceTheme.Popover.renderers.workspace = SC.AceTheme.Popover.renderers.Workspace.create();
+SC.SlickTheme.Popover.renderers.workspace = SC.SlickTheme.Popover.renderers.Workspace.create();
