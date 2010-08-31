@@ -31,14 +31,14 @@
 
 /* Checkboxes */
 @view(sc-panel.sc-picker.sc-menu) .sc-menu-item .checkbox {
-  top: 3px;
-  width: 12px; height: 12px;
+  top: 7px;
+  width: 4px; height: 5px;
   background: sprite(checkmark.png);
 }
 
 @view(sc-panel.sc-picker.sc-menu) .sc-menu-item.focus .checkbox, 
 @view(sc-panel.sc-picker.sc-menu) .sc-menu-item:hover .checkbox {
-  top: 4px; /* NOTE THE SLIGHT DIFFERENCE */
+  top:6px;
   background: sprite(checkmark_active.png);
 }
 

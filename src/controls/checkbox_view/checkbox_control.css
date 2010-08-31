@@ -10,6 +10,8 @@
 .sc-checkbox-control .label {
   position: absolute;
   left: 20px;
+  color:#525252;
+  font-weight:normal;
   line-height: 16px;
 }
 
