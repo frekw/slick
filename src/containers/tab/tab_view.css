@@ -1,0 +1,10 @@
+@view(sc-tab-view) {
+  overflow: visible;
+  .sc-container-view {
+    -sc-border-radius: 5px;
+    border: 1px solid #b5b5b5;
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, .75);
+    overflow:hidden;
+    background:#fff;
+  }
+}

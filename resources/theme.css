@@ -49,9 +49,37 @@
   top: 9px;
   font-size: 11px;
 }
+.sc-theme .sc-view.slick.sc-master-detail-view { background: #9eaaaf; }
+.sc-theme .sc-view.slick.sc-master-detail-view.round-toolbars .sc-toolbar-view {
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-raidus-topright: 10px;
+}
+.sc-theme .sc-view.slick.sc-master-detail-view > .sc-view { background: #f1f1f1; }
+.sc-theme .sc-view.slick.sc-master-detail-view > .sc-view {
+  background: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dddddd), to(#bbbbbb));
+}
+.sc-theme .sc-view.slick.sc-master-detail-view.round-toolbars > .sc-view {
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-raidus-topright: 10px;
+}
 .sc-theme .sc-view.slick.sc-split-divider-view {
   background: #9eaaaf;
   border: 0px none;
+}
+.sc-theme .sc-view.slick.sc-tab-view { overflow: visible; }
+.sc-theme .sc-view.slick.sc-tab-view .sc-container-view {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b5b5b5;
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+  overflow: hidden;
+  background: #ffffff;
 }
 .sc-theme .sc-view.slick.sc-small-size.sc-button-view .button-left {
   margin-top: -9px;
