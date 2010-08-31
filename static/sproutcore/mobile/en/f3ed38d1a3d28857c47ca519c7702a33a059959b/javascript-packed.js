@@ -3325,7 +3325,7 @@ this.freeze()},copy:function(){return SC.TextSelection.create({start:this.get("s
 },toString:function(){var a=this.get("length");if(a&&a>0){if(a===1){return"[%@ character selected: {%@, %@}]".fmt(a,this.get("start"),this.get("end"))
 }else{return"[%@ characters selected: {%@, %@}]".fmt(a,this.get("start"),this.get("end"))
 }}else{return"[no text selected; caret at %@]".fmt(this.get("start"))}}});SC.StaticLayout={hasStaticLayout:YES};
-sc_require("views/field");sc_require("system/text_selection");sc_require("mixins/slick/static_layout");
+sc_require("views/field");sc_require("system/text_selection");sc_require("mixins/static_layout");
 SC.TextFieldView=SC.FieldView.extend(SC.StaticLayout,SC.Editable,{tagName:"label",classNames:["sc-text-field-view"],applyImmediately:YES,isPassword:NO,isTextArea:NO,hint:"",isEditing:NO,hintON:YES,defaultTabbingEnabled:YES,isContextMenuEnabled:YES,continuouslyUpdatesValue:YES,allowsErrorAsValue:YES,leftAccessoryView:null,rightAccessoryView:null,spellCheckEnabled:YES,maxLength:5096,_isFocused:NO,init:function(){var a=this.get("hintON"),b=this.get("value");
 if(!b||b&&b.length===0){this.set("hintON",YES)}else{this.set("hintON",NO)}return arguments.callee.base.apply(this,arguments)
 },isEditable:function(){return this.get("isEnabled")}.property("isEnabled").cacheable(),selection:function(j,h){var d=this.$input()[0],e,a,c;
