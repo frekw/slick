@@ -1,8 +1,8 @@
-.sc-media-controls .stop{background:url('/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -8px 4px;height:20px;width:22px;}
-.sc-media-controls .play{background:url('/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat 7px 4px;height:20px;width:22px;}
-.sc-media-controls .theater{background:url('/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -24px 4px;height:20px;width:18px;}
-.sc-media-controls .minus{background:url('/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -45px 3px;height:20px;width:20px;}
-.sc-media-controls .plus{background:url('/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -60px 3px;height:20px;width:20px;}
+.sc-media-controls .stop{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -8px 4px;height:20px;width:22px;}
+.sc-media-controls .play{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat 7px 4px;height:20px;width:22px;}
+.sc-media-controls .theater{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -24px 4px;height:20px;width:18px;}
+.sc-media-controls .minus{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -45px 3px;height:20px;width:20px;}
+.sc-media-controls .plus{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -60px 3px;height:20px;width:20px;}
 .sc-media-controls .time{font-size:10px!important;line-height:20px!important;}.sc-media-controls{background:black;opacity:.8;}
 .sc-media-controls .sc-view.sc-slider-view{overflow:visible;}.sc-media-controls .sc-view.sc-slider-view .sc-inner{height:2px;top:9px;right:0;left:0;}
 .sc-media-controls .sc-view.sc-slider-view .sc-track{background:white;position:absolute;left:0;top:0;right:0;bottom:0;z-index:1;}
