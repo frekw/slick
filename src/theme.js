@@ -5,6 +5,7 @@
 SC.SlickTheme = SC.BaseTheme.extend({
   name: "Slick",
   description: "A bright, Ace-inspired theme",
+  version: 'v0.1 alpha',
   classNames: ["slick"]
 });
 
