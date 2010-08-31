@@ -39,7 +39,7 @@
 
 @view(sc-collection-view).sc-source-list .disclosure {
   position: absolute;
-  left: -12px;
-  top: 9px;
+  left: -7px;
+  top: 11px;
   font-size: 11px;
 }

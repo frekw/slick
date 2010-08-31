@@ -60,8 +60,8 @@
 }
 .sc-theme .sc-view.slick.sc-collection-view.sc-source-list .disclosure {
   position: absolute;
-  left: -12px;
-  top: 9px;
+  left: -7px;
+  top: 11px;
   font-size: 11px;
 }
 .sc-theme .sc-view.slick.sc-master-detail-view { background: #9eaaaf; }
