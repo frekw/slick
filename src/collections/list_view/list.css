@@ -1,0 +1,7 @@
+@view(sc-collection-view) .sc-collection-item.sel {
+  color: white;
+  text-shadow: 0px 1px 1px rgba(0,0,0,.65);
+  background: sprite("selection.png" repeat-x [0, 0, 1, 128]);
+  border: 1px solid #016391;
+  border-left:0; border-right:0;
+}
