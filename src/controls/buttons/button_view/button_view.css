@@ -1,6 +1,7 @@
 @view(sc-button-view) {
   border: 0px none;
-  color: #525252;
+  color: #777;
+  font-weight:bold;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, .75);
   
   .button-left {

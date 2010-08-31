@@ -27,12 +27,12 @@ More info: http://wiki.sproutcore.com/Abbot-Setting+Up
 Usage
 =====
 In your project, run the following commands
-    mkdir -p frameworks
-    cd frameworks
-    git clone git@github.com:frw/slick.git
+    mkdir -p themes
+    cd themes
+    git clone git@github.com:frekw/slick.git slick
 
 Then add the following line to your Buildfile
-    config :theme => [:slick]
+    config :theme => :slick
 
 Building
 ========
