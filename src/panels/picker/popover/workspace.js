@@ -15,7 +15,7 @@ require("src/panels/picker/popover/popover");
 
 var theme = SC.SlickTheme.Popover;
 
-SC.SlickTheme.Popover.renderers.Workspace = SC.EmptyTheme.renderers.Workspace.extend({
+SC.SlickTheme.Popover.renderers.Workspace = SC.BaseTheme.renderers.Workspace.extend({
   computeClassNames: function() {
     var cn = this._TMP_CLASS_NAMES || {};
     cn["top-toolbar"] = this.hasTopToolbar;

@@ -1,5 +1,5 @@
-SC.AceTheme.Popover = SC.AceTheme.Dark.subtheme("popover", "popover");
-SC.AceTheme.register("popover", SC.AceTheme.Popover);
+SC.SlickTheme.Popover = SC.SlickTheme.Dark.subtheme("popover", "popover");
+SC.SlickTheme.register("popover", SC.SlickTheme.Popover);
 
-SC.AceTheme.SolidPopover = SC.AceTheme.Popover.subtheme("solid", "solid");
-SC.AceTheme.register("solid-popover", SC.AceTheme.SolidPopover);
+SC.SlickTheme.SolidPopover = SC.SlickTheme.Popover.subtheme("solid", "solid");
+SC.SlickTheme.register("solid-popover", SC.SlickTheme.SolidPopover);

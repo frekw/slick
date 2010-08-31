@@ -9,10 +9,11 @@
 @view(sc-toolbar-view) {
   background: none;
   color: white;
-  text-shadow: none;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .85);
   border-bottom: 0px none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
+  height:40px;
 }
 /* Now, said "workspace part" */
 
@@ -34,21 +35,21 @@
     .top-left-edge {
       z-index: 5;
       position: absolute;
-      left: -25px; top: -25px; width: 40px; height: 30px;
-      background: sprite("popover_notoolbar.png" [0 0 40 30]);
+      left: -10px; top: -10px; width: 20px; height: 20px;
+      background: sprite("popover_notoolbar.png" [0 0 20 20]);
     }
     
     .top-right-edge {
       z-index: 5;
       position: absolute;
-      right: -25px; top: -25px; width: 40px; height: 30px;
-      background: sprite("popover_notoolbar.png" [-40 0 40 30]);
+      right: -13px; top: -10px; width: 20px; height: 20px;
+      background: sprite("popover_notoolbar.png" [-20 0 20 20]);
     }
     
     .top-edge {
       z-index: 5;
       position: absolute;
-      left: 15px; right: 15px; top: -25px; height: 30px;
+      left: 10px; right: 7px; top: -25px; height: 20px;
       background: sprite("popover_notoolbar.png" [40 0 1 30] repeat-x);
     }
     
@@ -56,37 +57,37 @@
     .bottom-left-edge {
       z-index: 5;
       position: absolute;
-      left: -25px; bottom: -25px; width: 40px; height: 30px;
-      background: sprite("popover_notoolbar.png" [0 -30 40 30]);
+      left: -10px; bottom: -15px; width: 20px; height: 20px;
+      background: sprite("popover_notoolbar.png" [0 -20 20 20]);
     }
     
     .bottom-right-edge {
       z-index: 5;
       position: absolute;
-      right: -25px; bottom: -25px; width: 40px; height: 30px;
-      background: sprite("popover_notoolbar.png" [-40 -30 40 30]);
+      right: -13px; bottom: -15px; width: 20px; height: 20px;
+      background: sprite("popover_notoolbar.png" [-20 -20 20 20]);
     }
     
     .bottom-edge {
       z-index: 5;
       position: absolute;
-      left: 15px; right: 15px; bottom: -25px; height: 30px;
-      background: sprite("popover_notoolbar.png" [40 -30 1 30] repeat-x);
+      left: 10px; right: 7px; bottom: -15px; height: 20px;
+      background: sprite("popover_notoolbar.png" [20 -20 1 20] repeat-x);
     }
     
     /* LEFT AND RIGHT SIDES */
     .left-edge {
       z-index: 5;
       position: absolute;
-      left: -25px; top: 5px; bottom: 5px; width: 30px;
-      background: sprite("popover_notoolbar.png" [0 40 30 1] repeat-y);
+      left: -10px; top: 0px; bottom: 5px; width: 20px;
+      background: sprite("popover_notoolbar.png" [0 20 20 1] repeat-y);
     }
     
     .right-edge {
       z-index: 5;
       position: absolute;
-      right: -25px; top: 5px; bottom: 5px; width: 30px;
-      background: sprite("popover_notoolbar.png" [-30 40 30 1] repeat-y);
+      right: -13px; top: 0px; bottom: 5px; width: 20px;
+      background: sprite("popover_notoolbar.png" [-20 20 20 1] repeat-y);
     }
     
     .sc-pointer {
@@ -103,22 +104,23 @@
     
     /* TOP */
     .top-left-edge {
-      top: -20px; height: 75px;
-      background: sprite("popover.png" [0 0 40 75]);
+      top: -20px; height: 50px;
+      background: sprite("popover.png" [0 0 20 50]);
     }
     
     .top-right-edge {
-      top: -20px; height: 75px;
-      background: sprite("popover.png" [-40 0 40 75]);
+      top: -20px; height: 50px;
+      background: sprite("popover.png" [-20 0 20 50]);
     }
     
     .top-edge {
-      top: -20px; height: 75px;
-      background: sprite("popover.png" [40 0 1 75] repeat-x);
+      top: -20px; height: 50px;
+      background: sprite("popover.png" [20 0 1 50] repeat-x);
     }
-    .left-edge { top: 55px; }
-    .right-edge { top: 55px; }
+    .left-edge { top: 30px; }
+    .right-edge { top: 30px; }
   }
+  
 }
 
 @view(sc-workspace-view).bottom-toolbar {
@@ -126,21 +128,21 @@
     
     /* TOP */
     .bottom-left-edge {
-      bottom: -20px; height: 75px;
-      background: sprite("popover.png" [0 -75 40 75]);
+      bottom: -45px; height: 50px;
+      background: sprite("popover.png" [0 -50 20 50]);
     }
     
     .bottom-right-edge {
-      bottom: -20px; height: 75px;
-      background: sprite("popover.png" [-40 -75 40 75]);
+      bottom: -45px; height: 50px;
+      background: sprite("popover.png" [-20 -50 20 50]);
     }
     
     .bottom-edge {
-      bottom: -20px; height: 75px;
-      background: sprite("popover.png" [40 -75 1 75] repeat-x);
+      bottom: -45px; height: 50px;
+      background: sprite("popover.png" [20 -50 1 50] repeat-x);
     }
-    .left-edge { bottom: 55px; }
-    .right-edge { bottom: 55px; }
+    .left-edge { bottom: 5px; }
+    .right-edge { bottom: 5px; }
   }
 }
 
@@ -231,21 +233,21 @@
 /* TOP POINTERS (for bottom-alignment) */
 @view(sc-picker).perfectBottom {
   .sc-pointer {
-    position: absolute; width: 50px; height: 25px; margin-left: -25px; left: 50%; top: -25px;
-    background: sprite("popover_pointers_notoolbar.png" [155 0 50 25]);
+    position: absolute; width: 18px; height: 10px; margin-left: -9px; left: 50%; top: -11px;
+    background: sprite("popover_notoolbar.png" [105 0 18 10]);
   }
 }
 
 /* Special case where you theme the workspace rather than the picker */
 @view(sc-picker).perfectBottom .solid .sc-pointer,
 @view(sc-picker).solid.perfectBottom .sc-pointer {
-    top: -25px;
-    background: sprite("popover_pointers.png" [155 0 50 25]);
+    top: -19px;
+    background: sprite("popover_notoolbar.png" [105 0 18 10]);
 }
 
 
 @view(sc-picker).perfectBottom .top-toolbar {
-  .sc-pointer { top: -20px;background: sprite("popover_pointers.png" [155 0 50 25]); }
+  .sc-pointer { top: -19px; background: sprite("popover.png" [105 0 18 10]); }
 }
 
 @view(sc-picker).perfectBottom.extra-left {
@@ -255,13 +257,13 @@
 /* BOTTOM POINTERS (for top-alignment) */
 @view(sc-picker).perfectTop {
   .sc-pointer {
-    position: absolute; width: 50px; height: 23px; margin-left: -25px; left: 50%; bottom: -25px;
-    background: sprite("popover_pointers.png" [155 -23 50 23]);
+    position: absolute; width: 18px; height: 10px; margin-left: -9px; left: 50%; bottom: -19px;
+    background: sprite("popover_pointers.png" [105 -18 18 10]);
   }
 }
 
 @view(sc-picker).perfectTop .bottom-toolbar {
-  .sc-pointer { bottom: -20px; }
+  .sc-pointer { bottom: -19px; }
 }
 
 @view(sc-picker).perfectTop.extra-left {
