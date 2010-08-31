@@ -832,23 +832,45 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
   right: 30px;
   background: static_url("images/1.png") repeat-x 0 -693px;
 }
+.sc-theme .sc-view.slick.sc-small-size.sc-slider-view { overflow: visible; }
+.sc-theme .sc-view.slick.sc-small-size.sc-slider-view .sc-track {
+  position: absolute;
+  top: 50%;
+  height: 4px;
+  left: 0px;
+  right: 0px;
+  margin-top: -2px;
+}
 .sc-theme .sc-view.slick.sc-small-size.sc-slider-view .sc-track .sc-left {
   width: 2px;
   height: 4px;
   background: static_url("images/1.png") no-repeat -16px -2358px;
+  left: 0px;
+  top: 0px;
+  display: block;
+  position: absolute;
 }
 .sc-theme .sc-view.slick.sc-small-size.sc-slider-view .sc-track .sc-middle {
   left: 2px;
   right: 2px;
+  top: 0px;
   height: 4px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") repeat-x 0 -1158px;
 }
 .sc-theme .sc-view.slick.sc-small-size.sc-slider-view .sc-track .sc-right {
+  right: 0px;
   width: 2px;
+  top: 0px;
   height: 4px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") no-repeat -28px -2340px;
 }
 .sc-theme .sc-view.slick.sc-small-size.sc-slider-view .sc-handle {
+  display: block;
+  position: absolute;
   width: 13px;
   height: 15px;
   top: 50%;
@@ -856,23 +878,45 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
   background: static_url("images/1.png") no-repeat -13px -1670px;
 }
 .sc-theme .sc-view.slick.sc-small-size.sc-slider-view.active .sc-handle { background: static_url("images/1.png") no-repeat 0 -1670px; }
-.sc-theme .sc-view.slick.sc-regular-size.sc-slider-view .sc-track .sc-left {
-  width: 2px;
+.sc-theme .sc-view.slick.sc-regular-size.sc-slider-view { overflow: visible; }
+.sc-theme .sc-view.slick.sc-regular-size.sc-slider-view .sc-track {
+  position: absolute;
+  top: 50%;
   height: 4px;
+  left: 0px;
+  right: 0px;
+  margin-top: -2px;
+}
+.sc-theme .sc-view.slick.sc-regular-size.sc-slider-view .sc-track .sc-left {
+  left: 0px;
+  width: 2px;
+  top: 0px;
+  height: 4px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") no-repeat -26px -2340px;
 }
 .sc-theme .sc-view.slick.sc-regular-size.sc-slider-view .sc-track .sc-middle {
   left: 2px;
   right: 2px;
+  top: 0px;
   height: 4px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") repeat-x 0 -1154px;
 }
 .sc-theme .sc-view.slick.sc-regular-size.sc-slider-view .sc-track .sc-right {
+  right: 0px;
   width: 2px;
+  top: 0px;
   height: 4px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") no-repeat -18px -2358px;
 }
 .sc-theme .sc-view.slick.sc-regular-size.sc-slider-view .sc-handle {
+  display: block;
+  position: absolute;
   width: 15px;
   height: 17px;
   top: 50%;
@@ -880,23 +924,45 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
   background: static_url("images/1.png") no-repeat 0 -1591px;
 }
 .sc-theme .sc-view.slick.sc-regular-size.sc-slider-view.active .sc-handle { background: static_url("images/1.png") no-repeat -15px -1591px; }
-.sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view .sc-track .sc-left {
-  width: 2px;
+.sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view { overflow: visible; }
+.sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view .sc-track {
+  position: absolute;
+  top: 50%;
   height: 7px;
+  left: 0px;
+  right: 0px;
+  margin-top: -3px;
+}
+.sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view .sc-track .sc-left {
+  left: 0px;
+  width: 2px;
+  top: 0px;
+  height: 7px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") no-repeat -24px -2340px;
 }
 .sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view .sc-track .sc-middle {
   left: 2px;
   right: 2px;
-  height: 6px;
+  top: 0px;
+  height: 7px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") repeat-x 0 -1147px;
 }
 .sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view .sc-track .sc-right {
+  right: 0px;
   width: 2px;
-  height: 6px;
+  top: 0px;
+  height: 7px;
+  display: block;
+  position: absolute;
   background: static_url("images/1.png") no-repeat -28px -1714px;
 }
 .sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view .sc-handle {
+  display: block;
+  position: absolute;
   width: 21px;
   height: 23px;
   top: 50%;
@@ -904,6 +970,7 @@ img.disclosure.button.closed.active { background: static_url("images/1.png") no-
   background: static_url("images/1.png") no-repeat 0 -1301px;
 }
 .sc-theme .sc-view.slick.sc-jumbo-size.sc-slider-view.active .sc-handle { background: static_url("images/1.png") no-repeat 0 -1345px; }
+.sc-theme .sc-view.slick.sc-slider-view.disabled { opacity: 0.5; }
 #loading {
   background: #eeeeee;
   background: -moz-linear-gradient(top, #dddddd, #bbbbbb);
