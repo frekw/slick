@@ -1,6 +1,6 @@
 Slick is a new theme for SproutCore.
 
-Previews: http://imgur.com/JRDQw&ijQIM&SBBOp&GiK7G&sgY6i&ZhtRk&R01tu&t2XGK
+[TestControls running slick](http://frekw.github.com/slick/)
 
 Prerequisites
 =============
@@ -23,7 +23,7 @@ You can now run commands the following way (from your app):
 *NOTICE*: If your app has a copy of sproutcore in its frameworks directory, that version needs to
 updated with one that supports renderers (e.g Quilmes).
 
-More info: http://wiki.sproutcore.com/Abbot-Setting+Up
+More info can be [found here](http://wiki.sproutcore.com/Abbot-Setting+Up).
     
 Usage
 =====
@@ -40,14 +40,14 @@ Building
 To generate new versions of the theme, you need RMagick.
 
 To install rmagick, first install imagemagick, and then install the rmagick gem.
-The easiest way to install imagemagick is by using homebrew [http://github.com/mxcl/homebrew].
+The easiest way to install imagemagick is by using [homebrew](http://github.com/mxcl/homebrew).
 Make sure you have XCode installed and run:
     ruby -e "$(curl -fsS http://gist.github.com/raw/323731/install_homebrew.rb)"
 and then run
    brew install imagemagick
 
 
-Slick also requires Ruby 1.9.2, which you can get via rvm [http://rvm.beginrescueend.com/].
+Slick also requires Ruby 1.9.2, which you can get via [rvm](http://rvm.beginrescueend.com/).
 Once rvm is installed, use the following command to install Ruby 1.9.2:
 
     $ rvm install 1.9.2
