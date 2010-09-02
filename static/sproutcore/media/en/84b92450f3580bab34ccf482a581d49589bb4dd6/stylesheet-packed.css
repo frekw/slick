@@ -68,39 +68,39 @@ body{position:absolute;margin:0;top:0;bottom:0;left:0;right:0;}.sc-view body,.sc
 .sc-button-view.sc-disclosure-view.sel.active .button{background-position:32px 16px;}
 .sc-theme .sc-button-view.sc-disclosure-view.active .button{background-position:64px 16px;}
 .sc-view.sc-ghost-view{opacity:.5;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";-moz-opacity:.5;z-index:10000;}
-.sc-icon-alert-48{width:48px;height:48px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') left top;}
-.sc-icon-info-48{width:48px;height:48px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') left -48px;}
-.sc-icon-error-48{width:48px;height:48px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') left -96px;}
-.sc-icon-tools-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -144px;}
-.sc-icon-bookmark-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -144px;}
-.sc-icon-info-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -168px;}
-.sc-icon-help-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -192px;}
-.sc-icon-alert-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -192px;}
-.sc-icon-left-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -216px;}
-.sc-icon-right-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -216px;}
-.sc-icon-up-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -240px;}
-.sc-icon-down-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -240px;}
-.sc-icon-undo-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -264px;}
-.sc-icon-redo-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -264px;}
-.sc-icon-group-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -288px;}
-.sc-icon-user-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -288px;}
-.sc-icon-cancel-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -312px;}
-.sc-icon-options-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -312px;}
-.sc-icon-folder-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -336px;}
-.sc-icon-trash-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -336px;}
-.sc-icon-document-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -360px;}
-.sc-icon-favorite-24{width:24px;height:24px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -360px;}
-.sc-icon-bookmark-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -384px;}
-.sc-icon-info-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -32px -384px;}
-.sc-icon-help-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -400px;}
-.sc-icon-alert-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -32px -400px;}
-.sc-icon-group-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -448px;}
-.sc-icon-user-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -448px;}
-.sc-icon-options-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -464px;}
-.sc-icon-folder-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -464px;}
-.sc-icon-trash-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -32px -464px;}
-.sc-icon-document-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -480px;}
-.sc-icon-favorite-16{width:16px;height:16px;background:no-repeat url('/slick/static/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -480px;}
+.sc-icon-alert-48{width:48px;height:48px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') left top;}
+.sc-icon-info-48{width:48px;height:48px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') left -48px;}
+.sc-icon-error-48{width:48px;height:48px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') left -96px;}
+.sc-icon-tools-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -144px;}
+.sc-icon-bookmark-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -144px;}
+.sc-icon-info-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -168px;}
+.sc-icon-help-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -192px;}
+.sc-icon-alert-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -192px;}
+.sc-icon-left-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -216px;}
+.sc-icon-right-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -216px;}
+.sc-icon-up-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -240px;}
+.sc-icon-down-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -240px;}
+.sc-icon-undo-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -264px;}
+.sc-icon-redo-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -264px;}
+.sc-icon-group-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -288px;}
+.sc-icon-user-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -288px;}
+.sc-icon-cancel-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -312px;}
+.sc-icon-options-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -312px;}
+.sc-icon-folder-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -336px;}
+.sc-icon-trash-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -336px;}
+.sc-icon-document-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') 0 -360px;}
+.sc-icon-favorite-24{width:24px;height:24px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -24px -360px;}
+.sc-icon-bookmark-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -384px;}
+.sc-icon-info-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -32px -384px;}
+.sc-icon-help-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -400px;}
+.sc-icon-alert-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -32px -400px;}
+.sc-icon-group-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -448px;}
+.sc-icon-user-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -448px;}
+.sc-icon-options-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -464px;}
+.sc-icon-folder-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -464px;}
+.sc-icon-trash-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -32px -464px;}
+.sc-icon-document-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -0px -480px;}
+.sc-icon-favorite-16{width:16px;height:16px;background:no-repeat url('/static/slick/sproutcore/desktop/en/a5628b2ce26ae9377dc10f392b10c7abd86fd408/images/icons/shared.png') -16px -480px;}
 .sc-mini-icon{width:16px;height:16px;background-image:url('');border:none;}.active .sc-mini-icon,.sel .sc-mini-icon{background-image:url('');}
 .active .sc-mini-icon.inverted,.sel .sc-mini-icon.inverted,.sc-mini-icon.inverted{background-image:url('');}
 .disabled .sc-mini-icon,.active.disabled .sc-mini-icon,.sel.disabled .sc-mini-icon,.disabled .sc-mini-icon.inverted,.active.disabled .sc-mini-icon.inverted,.sel.disabled .sc-mini-icon.inverted{background-image:url('');}
@@ -213,7 +213,7 @@ body{position:absolute;margin:0;top:0;bottom:0;left:0;right:0;}.sc-view body,.sc
 .sc-menu-item span.separator{display:block;height:1px;border-bottom:1px #ccc solid;}
 .sc-menu-item img{left:24px;top:3px;display:block;position:absolute;}.sc-menu-item a span.shortcut{position:absolute;right:5px;margin-right:15px;text-align:center;font-size:12px;}
 .sc-menu-item.disabled a:hover{background-color:transparent;color:#A0A0A0;}.sc-menu-item div.checkbox{position:absolute;display:block;width:12px;height:12px;left:6px;top:5px;-webkit-border-radius:2px;-moz-border-radius:2px;}
-.sc-menu-item.disabled.focus div.checkbox{background-image:url('');}.sc-menu-item.disabled div.checkbox,.sc-menu-item div.checkbox.inactive{background-image:url(data:image/gif;base64,R0lGODlhAQABAJAAAP///wAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==) top left no-repeat;*background-image:url('/slick/static/sproutcore/foundation/en/dda7c76d3c3d013125718785fed7848a87ed6d84/blank.gif') top left no-repeat;}
+.sc-menu-item.disabled.focus div.checkbox{background-image:url('');}.sc-menu-item.disabled div.checkbox,.sc-menu-item div.checkbox.inactive{background-image:url(data:image/gif;base64,R0lGODlhAQABAJAAAP///wAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==) top left no-repeat;*background-image:url('/static/slick/sproutcore/foundation/en/dda7c76d3c3d013125718785fed7848a87ed6d84/blank.gif') top left no-repeat;}
 .sc-menu-item span.value{position:absolute;top:0;bottom:0;left:0;right:5px;display:inline-block;text-align:left;margin-left:25px;}
 .sc-menu-item a.has-icon span.value{margin-left:44px;}.sc-menu-item a.shortcutkey span.value{right:55px;}
 .sc-pane.sc-modal{z-index:100;}.msie .sc-pane.sc-modal{background-image:url('.');}
@@ -267,11 +267,11 @@ body{position:absolute;margin:0;top:0;bottom:0;left:0;right:0;}.sc-view body,.sc
 .sc-well-view .left-edge{position:absolute;width:7px;top:7px;bottom:7px;left:0;}
 .sc-well-view .right-edge{position:absolute;width:7px;top:7px;bottom:7px;right:0;}
 .sc-well-view .content-background{position:absolute;top:5px;bottom:5px;right:7px;left:7px;}
-.sc-media-controls .stop{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -8px 4px;height:20px;width:22px;}
-.sc-media-controls .play{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat 7px 4px;height:20px;width:22px;}
-.sc-media-controls .theater{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -24px 4px;height:20px;width:18px;}
-.sc-media-controls .minus{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -45px 3px;height:20px;width:20px;}
-.sc-media-controls .plus{background:url('/slick/static/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -60px 3px;height:20px;width:20px;}
+.sc-media-controls .stop{background:url('/static/slick/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -8px 4px;height:20px;width:22px;}
+.sc-media-controls .play{background:url('/static/slick/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat 7px 4px;height:20px;width:22px;}
+.sc-media-controls .theater{background:url('/static/slick/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -24px 4px;height:20px;width:18px;}
+.sc-media-controls .minus{background:url('/static/slick/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -45px 3px;height:20px;width:20px;}
+.sc-media-controls .plus{background:url('/static/slick/sproutcore/media/en/84b92450f3580bab34ccf482a581d49589bb4dd6/resources/controls.png') no-repeat -60px 3px;height:20px;width:20px;}
 .sc-media-controls .time{font-size:10px!important;line-height:20px!important;}.sc-media-controls{background:black;opacity:.8;}
 .sc-media-controls .sc-view.sc-slider-view{overflow:visible;}.sc-media-controls .sc-view.sc-slider-view .sc-inner{height:2px;top:9px;right:0;left:0;}
 .sc-media-controls .sc-view.sc-slider-view .sc-track{background:white;position:absolute;left:0;top:0;right:0;bottom:0;z-index:1;}

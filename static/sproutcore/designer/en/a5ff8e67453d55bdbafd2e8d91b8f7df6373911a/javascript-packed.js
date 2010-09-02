@@ -1498,7 +1498,7 @@ a2.style.overflow="hidden",a2.style.position="relative";this.subtractsBorderForO
 this.doesNotIncludeMarginInBodyOffset=(aY.offsetTop!==a0);aY.removeChild(aZ);aY=aZ=a2=a4=a3=a5=null;
 a.offset.initialize=a.noop},bodyOffset:function(aY){var a0=aY.offsetTop,aZ=aY.offsetLeft;
 a.offset.initialize();if(a.offset.doesNotIncludeMarginInBodyOffset){a0+=parseFloat(a.curCSS(aY,"marginTop",true))||0;
-aZ+=parseFloat(a.curCSS(aY,"marginLeft",true))||0}return{top:a0,left:aZ}},setOffset:function(a3,aZ,a0){if(/slick\/static/.test(a.curCSS(a3,"position"))){a3.style.position="relative"
+aZ+=parseFloat(a.curCSS(aY,"marginLeft",true))||0}return{top:a0,left:aZ}},setOffset:function(a3,aZ,a0){if(/static\/slick/.test(a.curCSS(a3,"position"))){a3.style.position="relative"
 }var a2=a(a3),a5=a2.offset(),aY=parseInt(a.curCSS(a3,"top",true),10)||0,a4=parseInt(a.curCSS(a3,"left",true),10)||0;
 if(a.isFunction(aZ)){aZ=aZ.call(a3,a0,a5)}var a1={top:(aZ.top-a5.top)+aY,left:(aZ.left-a5.left)+a4};
 if("using" in aZ){aZ.using.call(a3,a1)}else{a2.css(a1)}}};a.fn.extend({position:function(){if(!this[0]){return null
@@ -3968,7 +3968,7 @@ if(a===SC.CONTENT_SET_DIRECTLY){return}if(SC.typeOf(a)===SC.T_STRING&&a.length>0
 }.observes("contentView")});sc_require("views/view");sc_require("mixins/control");
 SC.IMAGE_STATE_NONE="none";SC.IMAGE_STATE_LOADING="loading";SC.IMAGE_STATE_LOADED="loaded";
 SC.IMAGE_STATE_FAILED="failed";SC.IMAGE_STATE_SPRITE="sprite";SC.BLANK_IMAGE_DATAURL="data:image/gif;base64,R0lGODlhAQABAJAAAP///wAAACH5BAUQAAAALAAAAAABAAEAAAICBAEAOw==";
-SC.BLANK_IMAGE_URL=SC.browser.msie&&SC.browser.msie<8?"/slick/static/sproutcore/foundation/en/dda7c76d3c3d013125718785fed7848a87ed6d84/blank.gif":SC.BLANK_IMAGE_DATAURL;
+SC.BLANK_IMAGE_URL=SC.browser.msie&&SC.browser.msie<8?"/static/slick/sproutcore/foundation/en/dda7c76d3c3d013125718785fed7848a87ed6d84/blank.gif":SC.BLANK_IMAGE_DATAURL;
 SC.ImageView=SC.View.extend(SC.Control,{classNames:"sc-image-view",tagName:"img",status:SC.IMAGE_STATE_NONE,value:null,useImageCache:YES,canLoadInBackground:NO,localize:YES,displayProperties:"status toolTip".w(),render:function(c,f){var a=this.get("status"),d=this.get("value");
 if(a===SC.IMAGE_STATE_NONE&&d){this._image_valueDidChange()}a=this.get("status");
 var e=(a===SC.IMAGE_STATE_LOADED)?d:SC.BLANK_IMAGE_URL;if(a===SC.IMAGE_STATE_SPRITE){c.addClass(d)

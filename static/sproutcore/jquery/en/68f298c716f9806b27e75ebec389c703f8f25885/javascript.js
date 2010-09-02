@@ -646,7 +646,7 @@ a2.style.overflow="hidden",a2.style.position="relative";this.subtractsBorderForO
 this.doesNotIncludeMarginInBodyOffset=(aY.offsetTop!==a0);aY.removeChild(aZ);aY=aZ=a2=a4=a3=a5=null;
 a.offset.initialize=a.noop},bodyOffset:function(aY){var a0=aY.offsetTop,aZ=aY.offsetLeft;
 a.offset.initialize();if(a.offset.doesNotIncludeMarginInBodyOffset){a0+=parseFloat(a.curCSS(aY,"marginTop",true))||0;
-aZ+=parseFloat(a.curCSS(aY,"marginLeft",true))||0}return{top:a0,left:aZ}},setOffset:function(a3,aZ,a0){if(/slick\/static/.test(a.curCSS(a3,"position"))){a3.style.position="relative"
+aZ+=parseFloat(a.curCSS(aY,"marginLeft",true))||0}return{top:a0,left:aZ}},setOffset:function(a3,aZ,a0){if(/static\/slick/.test(a.curCSS(a3,"position"))){a3.style.position="relative"
 }var a2=a(a3),a5=a2.offset(),aY=parseInt(a.curCSS(a3,"top",true),10)||0,a4=parseInt(a.curCSS(a3,"left",true),10)||0;
 if(a.isFunction(aZ)){aZ=aZ.call(a3,a0,a5)}var a1={top:(aZ.top-a5.top)+aY,left:(aZ.left-a5.left)+a4};
 if("using" in aZ){aZ.using.call(a3,a1)}else{a2.css(a1)}}};a.fn.extend({position:function(){if(!this[0]){return null
